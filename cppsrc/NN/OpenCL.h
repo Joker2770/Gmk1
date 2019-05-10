@@ -167,7 +167,6 @@ public:
     cl::Device m_device;
     cl::Context m_context;
 private:
-    void tune_sgemm(void);
     void process_tuners(std::string tuners);
 
     cl::Program m_program;
